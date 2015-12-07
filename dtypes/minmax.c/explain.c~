@@ -1,0 +1,28 @@
+<K.Sai Praneeth> <IMT2015511> <Praneeth.Reddy@iiitb.org>
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q1. Signed char minimum value: -128
+
+Explanation:
+A char occupies 8 bits(1byte) of memory.One of the 8 bits of the memory is used to store either + or -.As it is signed char it occupies    from [-128 to 127).The minimum value of signed char is -128.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. Signed char maximum value: 127
+
+Explanation:
+A char occupies 8 bits of memory which is equivalent to 1 byte.One of the 8 bits occupy either + or -.It takes the values from [0 to 128).The maximum value that it can take is 127.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3. Unsigned char minimum value: 0
+
+Explanation:
+A char occupies 8 bits of memory which is equivalent to 1 byte.As it is an unsigned char it takes values from [0 to 256) of which it takes all positive values only.The minimum value that it takes in unsigned char  is 0.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4.  Unsigned char maximum value: 255
+
+Explanation:
+A char occupies 8 bits of memory which is equivalent to 1 byte.As it is an unsigned char it takes values from [0 to 256) of which it takes all positive values only.The maximum value that it takes in unsigned char is 255.      

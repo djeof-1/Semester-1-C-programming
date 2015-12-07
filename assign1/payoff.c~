@@ -1,0 +1,329 @@
+#include<stdio.h>
+int main()
+{
+int mpy,nd,nz,nm,nh; // miles driven per year, number of days, 
+float cogg,cm,ny,mpgbm,mpgam; //cost of a gallon of gasoline , cost of the modification,miles per gallon before modification ,miles per gallon after modification
+float ycdbm,ycdam; // yearly cost of driving before modification,yearly cost of driving after modification
+printf("enter no of miles driven per year \n");
+scanf("%d",&mpy);
+printf("enter cost of a gallon of gasoline \n");
+scanf("%f",&cogg);
+printf("enter cost of the modification \n");
+scanf("%f",&cm);
+printf("enter miles per gallon before modification \n");
+scanf("%f",&mpgbm);
+printf("enter miles per gallon after modification \n");
+scanf("%f",&mpgam);
+ycdbm=(cogg*mpy)/mpgbm;
+ycdam=(cogg*mpy)/mpgam;
+printf("cost =%.2f\n",ycdbm);
+printf("cost =%.2f\n",ycdam);
+nd=(cm/(ycdbm-ycdam))*365;
+ny=nd/365.0;
+nz=(ny - (int)ny)*365;
+nm=nd/30;
+nh=nd*24;
+//printf("%d %d %d %d",(int)ny,nz,nm,nh);
+if(ny>1&&nz>1&&nm>1&&nh>1)
+{
+  printf("%d years, %d months, %d days, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz>1&&m>1&&h==1)
+{
+  printf("%d years, %d months, %d days, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz>1&&nm>1&&nh==0)
+{
+  printf("%d years, %d months, %d days\n",ny,nm,nz);
+}
+else if(ny>1&&nz>1&&nm==1&&nh>1)
+{
+  printf("%d years, %d month, %d days, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz>1&&nm==1&&nh==1)
+{
+  printf("%d years, %d month, %d days, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz>1&&nm==1&&nh==0)
+{
+  printf("%d years,%d month, %d days\n",ny,nm,nz);
+}
+else if(ny>1&&nz>1&&nm==0&&nh>1)
+{
+  printf("%d years, %d days, %d hours \n",ny,nz,nh);
+}
+else if(ny>1&&nz>1&&nm==0&&nh==1)
+{
+  printf("%d years, %d days, %d hour \n",ny,nz,nh);
+}
+else if(ny>1&&nz>1&&nm==0&&nh==0)
+{
+  printf("%d years, %d days\n",ny,nz);
+}
+else if(ny>1&&nz==1&&nm>1&&nh>1)
+{
+  printf("%d years, %d months, %d day, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz==1&&nm>1&&nh==1)
+{
+  printf("%d years, %d months, %d day, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz==1&&nm>1&&nh==0)
+{
+  printf("%d years, %d months, %d day\n",ny,nm,nz);
+}
+else if(ny>1&&nz==1&&nm==1&&nh>1)
+{
+  printf("%d years, %d month, %d day, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz==1&&nm==1&&nh==1)
+{
+  printf("%d years, %d month, %d day, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny>1&&nz==1&&nm==1&&nh==0)
+{
+  printf("%d years,%d month, %d day\n",ny,nm,nz);
+}
+else if(ny>1&&nz==1&&nm==0&&nh>1)
+{
+  printf("%d years, %d day, %d hours \n",ny,nz,nh);
+}
+else if(ny>1&&nz==1&&nm==0&&nh==1)
+{
+  printf("%d years, %d day, %d hour \n",ny,nz,nh);
+}
+else if(ny>1&&nz==1&&nm==0&&nh==0)
+{
+  printf("%d years, %d day\n",y,d);
+}
+else if(ny>1&&nz==0&&nm>1&&nh>1)
+{
+  printf("%d years, %d months, %d hours \n",ny,nm,nh);
+}
+else if(ny>1&&nz==0&&nm>1&&nh==1)
+{
+  printf("%d years, %d months, %d hour \n",ny,nm,nh);
+}
+else if(ny>1&&nz==0&&nm>1&&nh==0)
+{
+  printf("%d years, %d months,\n",ny,nm);
+}
+else if(ny>1&&nz==0&&nm==1&&nh>1)
+{
+  printf("%d years, %d month, %d hours \n",ny,nm,nh);
+}
+else if(ny>1&&nz==0&&nm==1&&nh==1)
+{
+  printf("%d years, %d month, %d hour \n",ny,nm,nh);
+}
+else if(ny>1&&nz==0&&nm==1&&nh==0)
+{
+  printf("%d years,%d month,\n",ny,nm);
+}
+else if(ny>1&&nz==0&&nm==0&&nh>1)
+{
+  printf("%d years,%d hours \n",ny,nh);
+}
+else if(ny>1&&nz==0&&nm==0&&nh==1)
+{
+  printf("%d years, %d hour \n",ny,nh);
+}
+else if(ny>1&&nz==0&&nm==0&&nh==0)
+{
+  printf("%d years,\n",ny);
+}
+else if(ny==1&&nz>1&&nm>1&&nh>1)
+{
+  printf("%d year, %d months, %d days, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz>1&&nm>1&&nh==1)
+{
+  printf("%d year, %d months, %d days, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz>1&&nm>1&&nh==0)
+{
+  printf("%d year, %d months, %d days\n",ny,nm,nz);
+}
+else if(ny==1&&nz>1&&nm==1&&nh>1)
+{
+  printf("%d year, %d month, %d days, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz>1&&nm==1&&nh==1)
+{
+  printf("%d year, %d month, %d days, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz>1&&nm==1&&nh==0)
+{
+  printf("%d year,%d month, %d days\n",ny,nm,nz);
+}
+else if(ny==1&&nz>1&&nm==0&&nh>1)
+{
+  printf("%d year, %d days, %d hours \n",ny,nz,nh);
+}
+else if(ny==1&&nz>1&&nm==0&&nh==1)
+{
+  printf("%d year, %d days, %d hour \n",ny,nz,nh);
+}
+else if(ny==1&&nz>1&&nm==0&&nh==0)
+{
+  printf("%d year, %d days\n",ny,nz);
+}
+else if(ny==1&&nz==1&&nm>1&&nh>1)
+{
+  printf("%d year, %d months, %d day, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz==1&&nm>1&&nh==1)
+{
+  printf("%d year, %d months, %d day, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz==1&&nm>1&&nh==0)
+{
+  printf("%d year, %d months, %d day\n",ny,nm,nz);
+}
+else if(ny==1&&nz==1&&nm==1&&nh>1)
+{
+  printf("%d year, %d month, %d day, %d hours \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz==1&&nm==1&&nh==1)
+{
+  printf("%d year, %d month, %d day, %d hour \n",ny,nm,nz,nh);
+}
+else if(ny==1&&nz==1&&nm==1&&nh==0)
+{
+  printf("%d year,%d month, %d day\n",ny,nm,nz);
+}
+else if(ny==1&&nz==1&&nm==0&&nh>1)
+{
+  printf("%d year, %d day, %d hours \n",ny,nz,nh);
+}
+else if(ny==1&&nd==1&&nm==0&&nh==1)
+{
+  printf("%d year, %d day, %d hour \n",ny,nz,nh);
+}
+
+else if(ny==1&&nd==1&&nm==0&&nh==0)
+{
+  printf("%d year, %d day\n",ny,nz);
+}
+else if(ny==1&&nz==0&&nm>1&&nh>1)
+{
+  printf("%d year, %d months, %d hours \n",ny,nm,nh);
+}
+else if(ny==1&&nz==0&&nm>1&&nh==1)
+{
+  printf("%d year, %d months, %d hour \n",ny,nm,nh);
+}
+else if(ny==1&&nz==0&&nm>1&&nh==0)
+{
+  printf("%d year, %d months,\n",ny,nm);
+}
+else if(ny==1&&nd==0&&nm==1&&nh>1)
+{
+  printf("%d year, %d month, %d hours \n",ny,nm,nh);
+}
+else if(ny==1&&nz==0&&nm==1&&nh==1)
+{
+  printf("%d year, %d month, %d hour \n",ny,nm,nh);
+}
+else if(ny==1&&nz==0&&nm==1&&nh==0)
+{
+  printf("%d year,%d month,\n",ny,nm);
+}
+else if(ny==1&&nz==0&&nm==0&&nh>1)
+{
+  printf("%d year,%d hours \n",ny,nh);
+}
+else if(ny==1&&nz==0&&nm==0&&nh==1)
+{
+  printf("%d year, %d hour \n",ny,nh);
+}
+else if(ny==1&&nz==0&&nm==0&&nh==0)
+{
+  printf("%d year,\n",ny);
+}
+else if(ny==0&&nz>1&&nm>1&&nh>1)
+{
+  printf(" %d months, %d days, %d hours \n",nm,nz,nh);
+}
+else if(ny==0&&nz>1&&nm>1&&nh==1)
+{
+  printf(" %d months, %d days, %d hour \n",nm,nz,nh);
+}
+else if(ny==0&&nz>1&&nm>1&&nh==0)
+{
+  printf(" %d months, %d days\n",nm,nz);
+}else if(ny==1&&nz==0&&nm==0&&nh==1)
+{
+  printf("%d year, %d hour \n",ny,nh);
+}
+else if(ny==1&&nz==0&&nm==0&&nh==0)
+{
+  printf("%d year,\n",ny);
+}
+else if(ny==0&&nz>1&&nm==1&&nh>1)
+{
+  printf(" %d month, %d days, %d hours \n",nm,nz,nh);
+}
+else if(ny==0&&nz>1&&nm==1&&nh==1)
+{
+  printf(" %d month, %d days, %d hour \n",nm,nz,nh);
+}
+else if(ny==0&&nz>1&&nm==1&&nh==0)
+{
+  printf("%d month, %d days\n",nm,nz);
+}
+else if(ny==0&&nz>1&&nm==0&&nh>1)
+{
+  printf(" %d days, %d hours \n",nz,nh);
+}
+else if(ny==0&&nz>1nm==0&&nh==1);
+{
+  printf(" %d days, %d hour \n",nz,nh);
+}
+else if(ny==0&&nz>1&&nm==0&&nh==0)
+{
+  printf(" %d days\n",nz);
+}
+else if(ny==0&&nz==1&&nm>1&&nh>1)
+{
+  printf(" %d months, %d day, %d hours \n",nm,nz,nh);
+}
+else if(ny==0&&nz==1&&nm>1&&nh==1)
+{
+  printf(" %d months, %d day, %d hour \n",nm,nz,nh);
+}
+else if(ny==0&&nz==1&&nm>1&&nh==0)
+{
+  printf(" %d months, %d day\n",nm,nz);
+}
+else if(ny==0&&nz==1&&nm==1&&nh>1)
+{
+  printf(" %d month, %d day, %d hours \n",nm,nz,nh);
+}
+else if(ny==0&&nz==1&&nm==1&&nh==1)
+{
+  printf(" %d month, %d day, %d hour \n",nm,nz,nh);
+}
+else if(ny==0&&nz==1&&nm==1&&nh==0)
+{
+  printf("%d month, %d day\n",nm,nz);
+}
+else if(ny==0&&nz==1&&nm==0&&nh>1)
+{
+  printf(" %d day, %d hours \n",nz,nh);
+}
+else if(ny==0&&nz==1&&nm==0&&nh==1)
+{
+  printf(" %d day, %d hour \n",nz,nh);
+}
+else if(ny==0&&nz==0&&nm==0&&nh==1)
+{
+  printf(" %d hour \n",nh);
+}
+else if(y==0&&d==0&&m==0&&h==0)
+{
+}
+
+return 0;
+}
+

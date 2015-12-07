@@ -1,0 +1,55 @@
+#include<stdio.h>
+int main()
+{
+enum petrolpumps{ZLINE=0, MPD, QPD};
+enum parityTypes{noparity = 0 ,odd,even};
+enum petrolpumps using = ZLINE;
+enum parityTypes parity = noparity;
+int packet =0;
+int m=1;
+int n;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   parity = odd;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   parity = even;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   using = MPD;
+  parity = noparity;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   parity = odd;
+   packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   parity = even;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   using = QPD;
+  parity = noparity;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  packet = packet<<2;
+   parity = odd;
+  packet = packet | using;
+  packet = packet<<2;
+  packet = packet | parity;
+  //packet = packet<<2;
+fprintf(stderr,"In send program- Sending the packet\n");
+fprintf(stdout,"%d\n",packet);
+return 1;
+}

@@ -1,0 +1,73 @@
+K.SAI PRANEETH REDDY  IMT2015511  Praneeth.Reddy@iiitb.org
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q1. Signed char minimum value: -128
+Explaination: Char is a 8 bit type and as it is signed, one bit is used for the sign (that is + or -). So now 7 bits are left and the minimum number which can be formed is -(2^7)=-128.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q2. Signed char maximum value: 127
+Explaination: Char is a 8 bit type and as it is signed, one bit is used for the sign (that is + or -). So now 7 bits are left and the maximum number which can be formed is (2^7)-1= 127.'-1' because '0' is also included as a non negative number. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q3. Unsigned char minimum value: 0
+Explaination: Char is a 8 bit type and unsigned,it has all the bits available. Without sign the minimum number that can be formed is 0 when all bits are occupied with 0.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q4. Unsigned char maximum value: 255
+Explaination: Char is a 8 bit type and unsigned,it has all the bits available. Without sign the maximum number that can be formed is 255   which is equivalent to (2^8)-1=255. '-1' because '0' is also present.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q5. Char minimum value: -128
+Explaination: Char is 8 bits type and one bit is occupied for sign and hence now 7 bits are  left. The minimum number that can be formed is -(2^7)=-128
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q6. Char maximum value: 127
+Explaination: It has 8 bits type and one bit is occupied for sign and hence now 7 bits are left. So the maximum number that can be formed is (2^7)-1=127.'-1'because'0' is also taken as non negative number.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q7. Signed short minimum value: -32768
+Explaination: short type has 16 bits and signed , one bit is for the sign (that is + or -). There are 15 bits available. So the minimum number that can be formed is -(2^15)=-32768.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q8. Signed short maximum value: 32767
+Explaination: short type has 16 bits and as it is signed , one bit is for the sign (that is + or -). Now there are 15 bits available. so the maximum number that can be formed is (2^15)-1=32767.'-1'because '0' is also included in non negative numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q9. Unsigned short minimum value: 0
+Explaination: short type has 16 bits and unsigned ,all the bits are available. Unsigned type are taken as non negative numbers.So the minimum number that can be formed is 0 when all the bits are occupied by 0.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q10. Unsigned short maximum value: 65535
+Explaination:short type has 16 bits and as it is unsigned ,all the bits are available. Unsigned type are taken as non negative numbers. So the maximum number that can be formed is (2^16)-1=65535.'-1'because'0' is also included in non negative numbers. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q11. Signed int minimum value: -2147483648
+Explaination:int type has 32 bits and as it is signed one , bit is for sign (that is + or-).There are 31 bits  which are available.So the minimum negative number that can be formed is  -(2^31)=-2147483648.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q12. Signed int maximum value: 2147483647
+Explaination:int type has 32 bits and as it is signed one , bit is for sign (that is + or-).There are remaining 31 bits are available.So the maximum negative number that can be formed is  (2^31)-1=2147483647.'-1'since '0'is also included in non negative numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q13. Unsigned int minimum value: 0
+Explaination:int type has 32 bits and as it is unsigned , all the bits are available.Unsigned type are taken as non negative numbers.So the minimum number that can be formed is '0' when all the bits are occupied by '0'.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q14. Unsigned int maximum value: 4294967295
+Explaination:int type has 32 bits and as it is unsigned , all the bits are available.Unsigned type are taken as non negative numbers. So the maximum number that can be formed is (2^32)-1=4294967295.'-1'because'0'is also included in non negative numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q15. Signed long minimum value: -9223372036854775808
+Explaination:long type has 64 bits and as it is signed , one bit is alloted for sign (that is + or -).There are 63 bits available and the minimum number that can be formed is -(2^63)=-9223372036854775808.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q16. Signed long maximum value: 9223372036854775807
+Explaination:long type has 64 bits and as it is signed , one bit is alloted for sign (that is + or -). So now there are 63 bits available and the maximum number that can be formed is (2^63)-1=9223372036854775807. '-1' because '0' is also included in non negative numbers
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q17. Unsigned long minimum value: 0
+Explaination:long type has 64 bits and as it is unsigned all the 64 bits are available as no bit is alloted to sign. So the minimum non negative number that can be formed is 0 when all the bits are occupied by '0'.  
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q18. Unsigned long maximum value: 18446744073709551615
+Explaination:long type is 64 bits and as it is unsigned , all the 64 bits are available. So the maximum number that can be formed is (2^64)-1=18446744073709551615. '-1' because '0' is also included in non negative number.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q19. Signed long long minimum value: -9223372036854775808
+Explaination:long long type has 64 bits type and as it is signed one bit is for sign (that is + or-).Now there are remaining 63 bits are available.So the minimum negative number that can be formed is  -(2^63)=-9223372036854775808.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q20. Signed long long maximum value: 9223372036854775807
+Explaination:long long type has 64 bits and as it is signed, one bit is for sign (that is + or-).Now there are remaining 63 bits available.So the maximum non negative number that can be formed is  (2^63)-1=9223372036854775807. '-1' because , 0 is also a non negative number.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q21. Unsigned long long minimum value: 0
+Explaination: long long type has  64bits and it is unsigned , all the 64 bits are available.So minimum value is 0 when all bits occupy.Unsigned type has no sign.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q22. Unsigned long long maximum value: 18446744073709551615
+Explaination: Long long type has a 64bits and as it is unsigned , all the 64 bits are available.Unsigned type has no sign. So maximum value is (2^64)-1=18446744073709551615 .'-1' because '0' is also included in non negative numbers.
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

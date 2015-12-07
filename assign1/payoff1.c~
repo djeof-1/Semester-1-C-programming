@@ -1,0 +1,354 @@
+#include <stdio.h>
+int main()
+     {
+     int a,x,y,k,m;	 
+     float b,c,d,e,f,g,h,z,p,l;
+     printf("no of miles driven in year is\n");
+	 scanf("%d",&a);	 
+     printf("cost of galion of gasoline(in dollars) is\n");
+     scanf("%f",&b);
+     printf("cost of modification is\n");
+     scanf("%f",&c);
+     printf("mpg before modification is\n");
+     scanf("%f",&d);
+     printf("mpg after modification is\n");
+     scanf("%f",&e);
+	 f=(a/d)*(b);
+	 printf("cost of driving without modification in $ is %3.2f\n",f);
+     g=(a/e)*(b);
+     printf("cost of driving with modification in $ is %3.2f\n",g);
+     h=c/(f-g);
+     x=h;
+     z=(h-x);
+     y=z*12;
+     p=z-y;
+     k=(z-y)*30;
+     l=p-k;
+     m=l*24;
+      printf("%d,%d,%d,%d",x,y,k,m);
+     if(x==0 && y==0 && k==0 && m==0)
+     	{
+     	printf("it does not take any time\n");
+     	}
+     else if(x==0 && y==0 && k==0 && m==1)
+     	{
+     	printf("1 hour\n");
+     	}	
+     else if(x==0 && y==0 && k==0 && m>=2)
+     	{
+     	printf("%d hours\n",m);
+     	}	
+     else if(x==0 && y==0 && k==1 && m==0)
+     	{
+     	printf("1 day\n");
+     	}	
+     else if(x==0 && y==0 && k==1 && m==1)
+     	{
+     	printf("1 day and 1 hour\n");
+     	}	
+     else if(x==0 && y==0 && k==1 && m>=2)
+     	{
+     	printf("1 day and %d hours\n",m);
+     	}	
+     else if(x==0 && y==0 && k>=2 && m==0)
+     	{
+     	printf("%d days\n",k);
+     	}	
+     else if(x==0 && y==0 && k>=2 && m==1)
+     	{
+     	printf("%d days and 1 hour\n",k);
+     	}	
+     else if(x==0 && y==0 && k>=2 && m>=2)
+     	{
+     	printf("%d days and %d hours\n",k,m);
+     	}	
+     else if(x==0 && y==1 && k>=0 && m==0)
+     	{
+     	printf("1 month\n");
+     	}	
+     else if(x==0 && y==1 && k==0 && m==1)
+     	{
+     	printf("1 month and 1 hour\n");
+     	}	
+     else if(x==0 && y==1 && k==0 && m>=2)
+     	{
+     	printf("1 month and %d hours\n",m);
+     	}	
+     else if(x==0 && y==1 && k==1 && m==0)
+     	{
+     	printf("1 month and 1 day\n");
+     	}	
+     else if(x==0 && y==1 && k==1 && m==1)
+     	{
+     	printf("1 month 1 day and 1 hour\n");
+     	}	
+     else if(x==0 && y==1 && k==1 && m>=2)
+     	{
+     	printf("1 month 1 day and %d hours\n",m);
+     	}	
+     else if(x==0 && y==1 && k>=2 && m==0)
+     	{
+     	printf("1 month and %d days\n",k);
+     	}	
+     else if(x==0 && y==1 && k>=2 && m==1)
+     	{
+     	printf("1 month %d days and 1 day\n",k);
+     	}	
+     else if(x==0 && y==1 && k>=2 && m>=2)
+     	{
+     	printf("1 month %d days and %d hours\n",k,m);
+     	}	
+     else if(x==0 && y>=2 && k==0 && m==0)
+     	{
+     	printf("%d months\n",y);
+     	}	
+      else if(x==0 && y>=2 && k==0 && m==1)
+     	{
+     	printf("%d months and 1 hour\n",y);
+     	}	
+     else if(x==0 && y>=2 && k==0 && m>=2)
+     	{
+     	printf("%d months and %d hours\n",y,m);
+     	}	
+     else if(x==0 && y>=2 && k==1 && m==0)
+     	{
+     	printf("%d months and 1 day\n",y);
+     	}	
+     else if(x==0 && y>=2 && k==1 && m==1)
+     	{
+     	printf("%d months 1 day and 1 hour\n",y);
+     	}	
+     else if(x==0 && y>=2 && k==1 && m>=2)
+     	{
+     	printf("%d months 1 day and %d hours\n",y,m);
+     	}	
+     else if(x==0 && y>=2 && k>=2 && m==0)
+     	{
+     	printf("%d months and %d days\n",y,k);
+     	}	
+     else if(x==0 && y>=2 && k>=2 && m==1)
+     	{
+     	printf("%d months %d days and 1 hour\n",y,k);
+     	}	
+     else if(x==0 && y>=2 && k>=2 && m>=2)
+     	{
+     	printf("%d months %d days and %d hours\n",y,k,m);
+     	}
+     else if(x==1 && y==0 && k==0 && m==0)
+     	{
+     	printf("1 year\n");
+     	}	
+     else if(x==1 && y==0 && k==0 && m==1)
+     	{
+     	printf("1 year and 1 hour\n");
+     	}	
+     else if(x==1 && y==0 && k==0 && m>=2)
+     	{
+     	printf("1 year and %d hours\n",m);
+     	}	
+     else if(x==1 && y==0 && k==1 && m==0)
+     	{
+     	printf("1 year and 1 day\n");
+     	}	
+     else if(x==1 && y==0 && k==1 && m==1)
+     	{
+     	printf("1 year 1 day and 1 hour\n");
+     	}	
+     else if(x==1 && y==0 && k==1 && m>=2)
+     	{
+     	printf("1 year 1 day and %d hours\n",m);
+     	}	
+     else if(x==1 && y==0 && k>=2 && m==0)
+     	{
+     	printf("1 year and %d days\n",k);
+     	}	
+     else if(x==1 && y==0 && k>=2 && m==1)
+     	{
+     	printf("1 year %d days and 1 hour\n",k);
+     	}	
+     else if(x==1 && y==0 && k>=2 && m>=2)
+     	{
+     	printf("1 year %d days and %d hours\n",k,m);
+     	}	
+     else if(x==1 && y==1 && k>=0 && m==0)
+     	{
+     	printf("1 year and 1 month\n");
+     	}	
+     else if(x==1 && y==1 && k==0 && m==1)
+     	{
+     	printf("1 year 1 month and 1 hour\n");
+     	}	
+     else if(x==1 && y==1 && k==0 && m>=2)
+     	{
+     	printf("1 year 1 month and %d hours\n",m);
+     	}	
+     else if(x==1 && y==1 && k==1 && m==0)
+     	{
+     	printf("1 year 1 month and 1 day\n");
+     	}	
+     else if(x==1 && y==1 && k==1 && m==1)
+     	{
+     	printf("1 year 1 month 1 day and 1 hour\n");
+     	}	
+     else if(x==1 && y==1 && k==1 && m>=2)
+     	{
+     	printf("1 year 1 month 1 day and %d hours\n",m);
+     	}	
+     else if(x==1 && y==1 && k>=2 && m==0)
+     	{
+     	printf("1 year 1 month and %d days\n",k);
+     	}	
+     else if(x==1 && y==1 && k>=2 && m==1)
+     	{
+     	printf("1 year 1 month %d days and 1 day\n",k);
+     	}	
+     else if(x==1 && y==1 && k>=2 && m>=2)
+     	{
+     	printf("1 year 1 month %d days and %d hours\n",k,m);
+     	}	
+     else if(x==1 && y>=2 && k==0 && m==0)
+     	{
+     	printf("1 year %d months\n",y);
+     	}	
+      else if(x==1 && y>=2 && k==0 && m==1)
+     	{
+     	printf("1 year %d months and 1 hour\n",y);
+     	}	
+     else if(x==1 && y>=2 && k==0 && m>=2)
+     	{
+     	printf("1 year %d months and %d hours\n",y,m);
+     	}	
+     else if(x==1 && y>=2 && k==1 && m==0)
+     	{
+     	printf("1 year %d months and 1 day\n",y);
+     	}	
+     else if(x==1 && y>=2 && k==1 && m==1)
+     	{
+     	printf("1 year %d months 1 day and 1 hour\n",y);
+     	}	
+     else if(x==1 && y>=2 && k==1 && m>=2)
+     	{
+     	printf("1 year %d months 1 day and %d hours\n",y,m);
+     	}	
+     else if(x==1 && y>=2 && k>=2 && m==0)
+     	{
+     	printf("1 year %d months and %d days\n",y,k);
+     	}	
+     else if(x==1 && y>=2 && k>=2 && m==1)
+     	{
+     	printf("1 year %d months %d days and 1 hour\n",y,k);
+     	}	
+     else if(x==1 && y>=2 && k>=2 && m>=2)
+     	{
+     	printf("1 year %d months %d days and %d hours\n",y,k,m);
+     	}
+     else if(x>=2 && y==0 && k==0 && m==0)
+     	{
+     	printf("%d years\n",x);
+     	}	
+     else if(x>=2 && y==0 && k==0 && m==1)
+     	{
+     	printf("%d years and 1 hour\n",x);
+     	}	
+     else if(x>=2 && y==0 && k==0 && m>=2)
+     	{
+     	printf("%d years and %d hours\n",x,m);
+     	}	
+     else if(x>=2 && y==0 && k==1 && m==0)
+     	{
+     	printf("%d years and 1 day\n",x);
+     	}	
+     else if(x>=2 && y==0 && k==1 && m==1)
+     	{
+     	printf("%d years 1 day and 1 hour\n",x);
+     	}	
+     else if(x>=2 && y==0 && k==1 && m>=2)
+     	{
+     	printf("%d years 1 day and %d hours\n",x,m);
+     	}	
+     else if(x>=2 && y==0 && k>=2 && m==0)
+     	{
+     	printf("%d years and %d days\n",x,k);
+     	}	
+     else if(x>=2 && y==0 && k>=2 && m==1)
+     	{
+     	printf("%d years %d days and 1 hour\n",x,k);
+     	}	
+     else if(x>=2 && y==0 && k>=2 && m>=2)
+     	{
+     	printf("%d years %d days and %d hours\n",x,k,m);
+     	}	
+     else if(x>=2 && y==1 && k>=0 && m==0)
+     	{
+     	printf("%d years and 1 month\n",x);
+     	}	
+     else if(x>=2 && y==1 && k==0 && m==1)
+     	{
+     	printf("%d years 1 month and 1 hour\n",x);
+     	}	
+     else if(x>=2 && y==1 && k==0 && m>=2)
+     	{
+     	printf("%d years 1 month and %d hours\n",x,m);
+     	}	
+     else if(x>=2 && y==1 && k==1 && m==0)
+     	{
+     	printf("%d years 1 month and 1 day\n",x);
+     	}	
+     else if(x>=2 && y==1 && k==1 && m==1)
+     	{
+     	printf("%d years 1 month 1 day and 1 hour\n",x);
+     	}	
+     else if(x>=2 && y==1 && k==1 && m>=2)
+     	{
+     	printf("%d years 1 month 1 day and %d hours\n",x,m);
+     	}	
+     else if(x>=2 && y==1 && k>=2 && m==0)
+     	{
+     	printf("%d years 1 month and %d days\n",x,k);
+     	}	
+     else if(x>=2 && y==1 && k>=2 && m==1)
+     	{
+     	printf("%d years 1 month %d days and 1 day\n",x,k);
+     	}	
+     else if(x>=2 && y==1 && k>=2 && m>=2)
+     	{
+     	printf("%d years 1 month %d days and %d hours\n",x,k,m);
+     	}	
+     else if(x>=2 && y>=2 && k==0 && m==0)
+     	{
+     	printf("%d years %d months\n",x,y);
+     	}	
+      else if(x>=2 && y>=2 && k==0 && m==1)
+     	{
+     	printf("%d years %d months and 1 hour\n",x,y);
+     	}	
+     else if(x>=2 && y>=2 && k==0 && m>=2)
+     	{
+     	printf("%d years %d months and %d hours\n",x,y,m);
+     	}	
+     else if(x>=2 && y>=2 && k==1 && m==0)
+     	{
+     	printf("%d years %d months and 1 day\n",x,y);
+     	}	
+     else if(x>=2 && y>=2 && k==1 && m==1)
+     	{
+     	printf("%d years %d months 1 day and 1 hour\n",x,y);
+     	}	
+     else if(x>=2 && y>=2 && k==1 && m>=2)
+     	{
+     	printf("%d years %d months 1 day and %d hours\n",x,y,m);
+     	}	
+     else if(x>=2 && y>=2 && k>=2 && m==0)
+     	{
+     	printf("%d years %d months and %d days\n",x,y,k);
+     	}	
+     else if(x>=2 && y>=2 && k>=2 && m==1)
+     	{
+     	printf("%d years %d months %d days and 1 hour\n",x,y,k);
+     	}	
+     else if(x>=2 && y>=2 && k>=2 && m>=2)
+     	{
+     	printf("%d years %d months %d days and %d hours\n",x,y,k,m);
+     	}
+        return 0;
+        }
